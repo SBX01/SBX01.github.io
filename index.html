@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="styles/estilos.css">
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".navbar">
 
     <nav class="navbar navbar-expand-sm navbar-light bg-warning sticky-top">
         <a class="navbar-brand" href="index.html">
@@ -35,10 +35,10 @@
                     <a class="nav-link" href="index.html">Stylist</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="" >Nosotros</a>
+                    <a class="nav-link" href="#historia" >Nosotros</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="">Galeria</a>
+                    <a class="nav-link" href="#precios">Precios</a>
                 </li>
             </ul>
         </div>
@@ -107,10 +107,10 @@
     </div>
 
     <br>
-    <div class="division"></div>
-    <br>
+    <div class="division" id="historia"></div>
+    <br><br><br>
 
-    <div id="historia" class="container">
+    <div class="container">
         <div class="row">
             <div class="col-sm-6">
                 <h3>Misión y Visión</h3>
@@ -139,17 +139,17 @@
            
     </div> 
     <br>
-    <div class="division"></div>
+    <br>
     <br>
     <div id="sobreNosotros" class="container">
         <div class="row">
             <div class="col-sm-6">
                 <h2>Sobre Nosotros</h2>
-                <p>
+                <h6 style="margin-top: 30%; text-align:center;">
                     Queremos darle a nuestros clientes
                      la mejor asesoría para enseñarles 
                      a potenciar sus cualidades y conseguir un look
-                    y potenciar sus cualidades</p>
+                    y potenciar sus cualidades</h6>
             </div>
             <div class="col-sm-6">
                 <h3>Trabajos</h3>
@@ -189,14 +189,14 @@
        
     </div>
     <br>
-    <div class="division"></div>
+    <div class="division" id="precios"></div>
     <br>
     <div id="listaPrecios" class="container">
         <h2>Listado de precios</h2>
         <br>
         <div class="row">
-            <div class="col-sm-4"></div>
-            <div class="col-sm-4">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-8">
                 <table class="table table-striped">
                     <thead>
                       <tr class="thead-dark"> 
@@ -222,7 +222,7 @@
                     </tbody>
                 </table>
             </div>
-            <div class="col-sm-4"></div>
+            <div class="col-sm-2"></div>
         </div>
 
         
