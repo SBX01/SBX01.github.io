@@ -37,8 +37,8 @@ p.lead{
 
 body {
     /* background-color:  #b8ffb8; */
-    background: rgb(208,163,252);
-    background: linear-gradient(90deg, rgba(208,163,252,1) 0%, rgba(99,227,254,1) 50%, rgba(166,255,164,1) 100%);
+    background: rgb(195,255,173);
+    background: linear-gradient(90deg, rgba(195,255,173,1) 0%, rgba(136,240,139,1) 50%, rgba(195,255,173,1) 100%);
 }
 
 #inicio{
